@@ -7,7 +7,7 @@ import { PostDetail } from '../src/shared/domains/posts/models/post-detail';
 
 async function getLastPost() {
   const postsResponse = await fetch(
-    `${process.env.BLOG_PROVIDER_BASE_API}/contents/NiltJs`,
+    `${process.env.BLOG_PROVIDER_BASE_API}/contents/NiltJs/`,
     { next: { revalidate: 30 } }
   );
   let posts = (await postsResponse.json()) as Post[];
