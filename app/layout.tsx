@@ -2,6 +2,7 @@
 import React from "react";
 import 'thon-ui/core/base.css';
 import "../src/homepage/css/homepage.css"
+import "../src/shared/components/css/global.css"
 import MainFooter from "@/shared/components/main-footer";
 import MainHeader from "@/shared/components/main-header";
 
