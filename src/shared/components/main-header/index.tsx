@@ -49,8 +49,7 @@ export default function MainHeader() {
 
       <div className="w-[18rem] lg:w-[20rem] mt-6 lg:mt-12">
         <Text as="p" variant="sm" className="text-gray-500 italic">
-          Criando coisas incríveis desde 2012, com muita atenção aos detalhes,
-          sentimento de dono e exercendo o feedback.
+        Criando soluções inovadoras com atenção aos detalhes, uma criatividade enorme e um compromisso constante com o feedback.
         </Text>
         <div className="flex gap-1 items-center mt-2">
           <Text variant="sm" className="text-gray-500 italic">
